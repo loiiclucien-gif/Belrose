@@ -1,32 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Le Cœur d'Astéria</title>
 
 <style>
 
 body{
 
-<div>
+margin:0;
+background:#000;
+color:white;
+font-family:Arial,Helvetica,sans-serif;
 
-<h1>Le Cœur d'Astéria s'ouvre...</h1>
+display:flex;
+justify-content:center;
+align-items:center;
+
+height:100vh;
+
+}
+
+.container{
+
+text-align:center;
+width:90%;
+max-width:450px;
+
+}
+
+h1{
+
+color:#c89b3c;
+
+}
+
+button{
+
+margin-top:40px;
+
+padding:18px 35px;
+
+font-size:20px;
+
+border:none;
+
+border-radius:8px;
+
+background:#c89b3c;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#ddb24f;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>ACCÈS AUTORISÉ</h1>
 
 <p>
 
-La mémoire oubliée révèle un nouveau chemin.
+Le Cœur d'Astéria reconnaît votre légitimité.
 
 </p>
 
-<br>
+<p>
 
-<a href="archives.html" class="btn">
-Accéder aux Archives Bellrose
-</a>
+Les Archives Bellrose sont désormais accessibles.
+
+</p>
+
+<button onclick="location.href='archives.html'">
+
+Accéder aux Archives
+
+</button>
 
 </div>
 
-
 </body>
+
 </html>
